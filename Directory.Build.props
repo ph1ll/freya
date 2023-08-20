@@ -1,0 +1,9 @@
+<Project>
+  <PropertyGroup>
+    <AnalysisMode>latest</AnalysisMode>
+    <AnalysisMode>All</AnalysisMode>
+    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+    <Deterministic>true</Deterministic>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5ABC73E8-46D8-4175-9BF0-5E8925A8778F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Freya.Core.Grains", "src\Freya.Core.Grains\Freya.Core.Grains.csproj", "{249ED9F0-9EC8-4F8B-956E-1D8F2CCF6E8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Freya.Core.GrainInterfaces", "src\Freya.Core.GrainInterfaces\Freya.Core.GrainInterfaces.csproj", "{F88C9EFA-3EE1-4929-9E4C-A3B5CCA26EFC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{D115AD6E-1847-4896-80D5-D134D04B3F62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Freya.Core.Grains.Tests", "test\Freya.Core.Grains.Tests\Freya.Core.Grains.Tests.csproj", "{322B2282-5ACF-48B8-8EF1-B0EFBE09E260}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{249ED9F0-9EC8-4F8B-956E-1D8F2CCF6E8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{249ED9F0-9EC8-4F8B-956E-1D8F2CCF6E8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{249ED9F0-9EC8-4F8B-956E-1D8F2CCF6E8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{249ED9F0-9EC8-4F8B-956E-1D8F2CCF6E8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F88C9EFA-3EE1-4929-9E4C-A3B5CCA26EFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F88C9EFA-3EE1-4929-9E4C-A3B5CCA26EFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F88C9EFA-3EE1-4929-9E4C-A3B5CCA26EFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F88C9EFA-3EE1-4929-9E4C-A3B5CCA26EFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{322B2282-5ACF-48B8-8EF1-B0EFBE09E260}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{322B2282-5ACF-48B8-8EF1-B0EFBE09E260}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{322B2282-5ACF-48B8-8EF1-B0EFBE09E260}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{322B2282-5ACF-48B8-8EF1-B0EFBE09E260}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{249ED9F0-9EC8-4F8B-956E-1D8F2CCF6E8D} = {5ABC73E8-46D8-4175-9BF0-5E8925A8778F}
+		{F88C9EFA-3EE1-4929-9E4C-A3B5CCA26EFC} = {5ABC73E8-46D8-4175-9BF0-5E8925A8778F}
+		{322B2282-5ACF-48B8-8EF1-B0EFBE09E260} = {D115AD6E-1847-4896-80D5-D134D04B3F62}
+	EndGlobalSection
+EndGlobal

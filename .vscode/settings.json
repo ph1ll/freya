@@ -1,0 +1,11 @@
+{
+  "dotnet.defaultSolution": "freya.sln",
+  "editor.formatOnSave": true,
+  "files.exclude": {
+    "**/bin": true,
+    "**/obj": true
+  },
+  "[csharp]": {
+    "editor.defaultFormatter": "csharpier.csharpier-vscode"
+  }
+}
